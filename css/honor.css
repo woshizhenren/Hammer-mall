@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 网页头部 */
+.head {
+	height: 45px;
+	width: 100%;
+	background: rgb(59, 59, 59);
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 头部商标 */
+.head>.head_logo {
+	line-height: 45px;
+	margin-left: 18px;
+}
+
+/* 头部导航栏 */
+.head>.head_ave {
+	width: 1400px;
+	line-height: 45px;
+}
+
+.head>.head_ave ul {
+	display: flex;
+	margin-left: 125px;
+	font-size: 12px;
+}
+
+.head>.head_ave ul li a {
+	padding: 0 20px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+/* 在线商城字体样式 */
+.head>.head_ave ul .head_ave_li1 a {
+	color: rgb(229, 229, 229);
+	font-weight: 700;
+}
+
+/* 个人中心购物车父框 */
+.head>.head_rgt {
+	height: 45px;
+	width: 100px;
+	margin-top: 10px;
+	display: flex;
+	position: relative;
+}
+.head>.head_percent>.shang{
+	height: 100px;
+	width: 150px;
+	text-align: center;
+}
+.head>.head_percent{
+	height: 375px;
+	width: 150px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+	top: 45px;
+	right: 20px;
+	border: 1px solid rgb(180,180,200);
+	border-radius: 10px;
+	margin-top: 1px;
+	display: none;
+	
+}
+
+.head>.head_percent ul li {
+	width: 150px;
+	border-top: 1px solid rgb(230,230,230);
+	line-height: 45px;
+	display: flex;
+	opacity: .5;
+	cursor: pointer;
+}
+.head>.head_percent ul a {
+	color: #000000;
+}
+.head>.head_percent ul li:hover{
+	background: rgb(250,250,250);
+}
+.head>.head_percent .tb{
+	margin-left: 10px;
+}
+.head>.head_percent .xx{
+	margin-left: 10px;
+}
+.head>.head_percent>.shang img{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+}
+
+/* 个人中心标志 */
+.head>.head_rgt .head_perCen {
+	height: 20px;
+	width: 20px;
+	background: url(../img/shopping.png) no-repeat;
+	background-size: 180%;
+	background-position: 2px 2px;
+	cursor: pointer;
+}
+
+/* 购物车标志 */
+.head>.head_rgt .head_spCart {
+	height: 20px;
+	width: 20px;
+	background: url(../img/shopping.png) no-repeat;
+	background-size: 180%;
+	background-position: -16px -17px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+.main>.st_fk>img{
+	width: 100%;
+	display: block;
+}
+.main>.switch{
+	width: 100%;
+	height: 980px;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.main>.switch>.switch_fk{
+	position: relative;
+	left: 550px;
+}
+.main>.switch>.tlite{
+	line-height: 220px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 1000;
+	font-family: "blackadder itc";
+}
+.main>.switch>.switch_fk ul{
+	width: 7164px;
+	height: 711px;
+	display: flex;
+	position: absolute;
+	transition: .3s linear;
+}
+.main>.switch>.switch_fk{
+	position: relative;
+}
+.main>.switch>.switch_fk img{
+	height: 543px;
+	width: 406px;
+}
+.main>.switch{
+	position: relative;
+}
+.main>.switch>.timez{
+	position: absolute;
+	/* bottom: 20px; */
+	bottom: 135px;
+	z-index: 0;
+}
+.main>.switch>.switch_fk ul li{
+	height: 525px;
+	width: 406px;
+	margin-right: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.main>.switch>.switch_fk #dian{
+	height: 20px;
+	width: 20px;
+	align-self: center;
+	position: relative;
+	z-index: 1;
+}
+.main>.switch>.switch_fk span{
+	padding: 5px 0;
+}
+.main>.switch>.switch_fk #pic1{
+	cursor: pointer;
+}
+.main>.switch>.switch_fk #switch_sp1{
+	font-size: 18px;
+}
+.main>.switch>.switch_fk #switch_sp2{
+	font-size: 14px;
+	color: rgb(150,150,150);
+}
+.main>.switch>.switch_fk #switch_sp3{
+	font-size: 14px;
+	color: rgb(150,150,150);
+}
+.main>.switch>.switch_fk a{
+	align-self: center;
+}
+.main>.switch>.switch_fk a span{
+	display: block;
+	
+	line-height: 30px;
+	width: 120px;
+	background: #5079D9;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+.main>.xt_fk{
+	width: 1220px;
+	margin: 0 auto;
+}
+.main>.xt_fk>img{
+	width: 100%;
+	display: block;
+}
+
+
+.foot{
+	height: 340px;
+	width: 100%;
+	border-top: 1px solid rgb(215, 215, 215);
+	background: rgb(250,250,250);
+}
+.foot>.foot_main{
+	height: 340px;
+	width: 1220px;
+	margin: 0 auto;
+}
+.foot>.foot_main>.foot_main_top{
+	height: 226px;
+	width: 1220px;
+	border-bottom: 1px solid rgb(215, 215, 215);
+	display: flex;
+	align-items: center;
+}
+.foot>.foot_main>.foot_main_top ul li{
+	margin-top: 10px;
+	margin-right: 90px;
+	font-size: 12px;
+	color: rgb(150,150,150);
+	cursor: pointer;
+}
+.foot>.foot_main>.foot_main_top ul .li1{
+	margin-top: 0;
+	font-size: 12px;
+	font-weight: 600;
+	color: #000000;
+	opacity: .7;
+	cursor: text;
+}
+.foot>.foot_main>.foot_main_top ul .foot_li2:hover{
+	color: #5079D9;
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt{
+	display: flex;
+	flex-direction: column;
+	margin-left: 500px;
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt span{
+	text-align: end;
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt>.rgt_sp1{
+	font-size: 20px;
+	font-weight: 700;
+	color: #5079D9;
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt>.rgt_sp2{
+	font-size: 12px;
+	color: rgb(150,150,150);
+	font-weight: 500;
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt button{
+	margin-top: 10px;
+	height: 35px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid rgb(215,215,215);
+}
+.foot>.foot_main>.foot_main_top>.foot_rgt button a{
+	color: #5079D9;
+	font-size: 12px;
+	font-weight: 700;
+}
+.foot>.foot_main>.foot_main_but {
+	padding-top: 30px;
+}
+.foot>.foot_main>.foot_main_but span{
+	font-size: 12px;
+	color: #bdbdbd;
+	font-weight: 500;
+	/* vertical-align: middle; */
+}
+.foot>.foot_main>.foot_main_but img{
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.foot>.foot_main>.foot_main_but a{
+	font-size: 12px;
+	color: #bdbdbd;
+}
+.foot>.foot_main>.foot_main_but a:hover{
+	color: #5079D9;
+}

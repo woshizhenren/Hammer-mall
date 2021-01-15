@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的购物车-锤子商城</title>
+		<link rel="stylesheet" type="text/css" href="./css/shopcare.css" />
+		<script src="./resource/date.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css" />
+		<script src="js/shopcare.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head_logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+			<div class="head_ave">
+				<ul>
+					<li class='head_ave_li1'><a href="index.html">在线商城</a></li>
+					<li><a href="#">坚果 R2</a></li>
+					<li><a href="Smartisan.html">Smartisan TNT go</a></li>
+					<li><a href="#">坚果 TNT 工作站</a></li>
+					<li><a href="#">Smartisan OS</a></li>
+					<li><a href="#">欢喜云</a></li>
+					<li><a href="download.html">应用</a></li>
+					<li><a href="#">论坛</a></li>
+					<li><a href="#">开发者支持</a></li>
+					<li><a href="honor.html">荣誉与奖项</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li class='head_ave_li12'><a href="#">下载 APP</a></li>
+				</ul>
+			</div>
+			<div class="head_rgt">
+				<!-- 个人中心 -->
+				<a href="percen.html">
+					<div class="head_perCen"></div>
+				</a>
+				<!-- 购物车 -->
+				<a href="shopcare.html">
+					<div class="head_spCart"></div>
+				</a>
+			</div>
+			<div class="head_percent">
+				<div class="shang">
+					<img src="img/avatar1.jpg">
+					<p>呢喃</p>
+				</div>
+				<ul>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-reorder"></i></div>
+							<div class="xx">我的订单</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-user"></i></div>
+							<div class="xx">售后服务</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-money"></i></div>
+							<div class="xx">我的优惠</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-file-text"></i></div>
+							<div class="xx">账户资料</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-truck"></i></div>
+							<div class="xx">收货地址</div>
+						</li>
+					</a>
+					<a href="">
+						<li style="border-radius: 0 0 10px 10px;">
+							<div class="tb"><i class="fa fa-window-close-o"></i></div>
+							<div class="xx">退出登录</div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<!-- 购物车 -->
+		<div class="shop">
+			<div class="fk">
+				<div class="shop_head">
+					<span class="shop_sp1">购物清单</span>
+				</div>
+				<div class="shop_ctr">
+					<span class="shop_sp1">商品信息</span>
+					<span class="shop_sp2">单价</span>
+					<span class="shop_sp3">数量</span>
+					<span class="shop_sp4">小计</span>
+					<span class="shop_sp5">删除</span>
+				</div>
+				<div class="shop_bot">
+					<div class="shangp">
+						<div class="xz"><i class="fa fa-check-square"></i></div>
+						<img src="./img/153.webp" >
+						<div class="spm">
+							<span class="spm_sp1">坚果 弯头数据线（Type-C）</span>
+							<span class="spm_sp2">白色</span>
+						</div>
+						<div class="danjia">￥145</div>
+						<div class="shuliang">
+							<div class="jian"><button type="button">-</button></div>
+							<div class="num">1</div>
+							<div class="jia"><button type="button">+</button></div>
+						</div>
+						<div class="xiaoji">￥145</div>
+						<div class="sc"><i class="fa fa-times-circle"></i></div>
+					</div>
+					<div class="shangp">
+						<div class="xz"><i class="fa fa-check-square"></i></div>
+						<img src="./img/144.webp" >
+						<div class="spm">
+							<span class="spm_sp1">Smartisan TNT 大满足套装</span>
+							<span class="spm_sp2">黑色</span>
+						</div>
+						<div class="danjia">￥6999</div>
+						<div class="shuliang">
+							<div class="jian"><button type="button">-</button></div>
+							<div class="num">1</div>
+							<div class="jia"><button type="button">+</button></div>
+						</div>
+						<div class="xiaoji">￥6999</div>
+						<div class="sc"><i class="fa fa-times-circle"></i></div>
+					</div>
+				</div>
+				
+				<div class="shop_foot">
+					<div class="xzq">
+						<i class="fa fa-check-square"></i>
+						<span>全选</span>
+						<span>|</span>
+						<span>取消选中的商品</span>
+					</div>
+					<div class="fk">
+						<!-- <div class="sps">
+							<span>已选择 <span class="xzjj">0</span> 件商品</span>
+							<span>共计 <span class="xzjj">0</span> 件商品</span>
+						</div> -->
+						<div class="zj" style="line-height: 61px;">
+							<span>应付总额：￥<span class="zjg">0</span>.00</span>
+						</div>
+						<div class="shop_foot_but">
+							<a href="payment.html"><button type="button" id="but3">现在结算</button></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- 热门推荐 -->
+		<div class="tj">
+			<div class="fk">
+				<div class="tj_head">相关推荐</div>
+				<div class="tjsp"></div>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<div class="foot">
+			<div class="foot_main">
+				<div class="foot_main_top">
+					<div class="lef1">
+						<ul>
+							<li class="li1" style="padding-top: 4px;">订单服务</li>
+							<li class="foot_li2">购买指南</li>
+							<li class="foot_li2">送货政策</li>
+							<li class="foot_li2"> </li><br>
+						</ul>
+					</div>
+					<div class="lef2">
+						<ul>
+							<li class="li1">服务支持</li>
+							<li class="foot_li2">零售门店</li>
+							<li class="foot_li2">自助服务</li>
+							<li class="foot_li2">维修门店</li>
+						</ul>
+					</div>
+					<div class="lef3">
+						<ul>
+							<li class="li1">媒体中心</li>
+							<li class="foot_li2">新闻百态</li>
+							<li class="foot_li2">官方视频</li>
+							<li class="foot_li2">图片资源</li>
+						</ul>
+					</div>
+					<div class="lef4">
+						<ul>
+							<li class="li1">关注我们</li>
+							<li class="foot_li2">新浪微博</li>
+							<li class="foot_li2">官方微信</li>
+							<li class="foot_li2">荣誉奖项</li>
+						</ul>
+					</div>
+					<div class="foot_rgt">
+						<span class="rgt_sp1">400 - 603 - 5000</span>
+						<span class="rgt_sp2">周一到周日 9:00 - 18:00</span>
+						<span class="rgt_sp2">(仅收市话费)</span>
+						<button type="button"><a href="">在线帮助</a></button>
+					</div>
+				</div>
+				<div class="foot_main_but">
+					<span>Copyright © 2020 smartisan.com 版权所有</span>
+					<span>|</span>
+					<a href="">锤子商城隐私政策</a>
+					<span>|</span>
+					<a href="">锤子商城用户协议</a>
+					<span>|</span>
+					<a href="">资质证照</a><br>
+					<a href="">京 ICP 备 19048576 号 - 1</a>
+					<span>|<img src="img/footer.png"></span>
+					<a href="">京公网安备 11010502039854号</a>
+					<span>|</span>
+					<a href="">京食药网食备 202010031</a>
+				</div>
+			</div>
+		</div>
+		<div class="mbfk">
+			<div class="mb">
+				<div class="qd">
+					<div class="tk_head">提示</div>
+					<div class="tk_ctr">您确定删除该商品吗？</div>
+					<div class="tk_foot">
+						<button type="button" id="tk_but1">取消</button>
+						<button type="button" id="tk_but2">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

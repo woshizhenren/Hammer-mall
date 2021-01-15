@@ -1,0 +1,98 @@
+<!-- 注册页面 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册- Smartisan</title>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./resource/date.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="./css/resource.css" />
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wordClick">
+			<!-- 父框 -->
+			<div class="box">
+				<div class="head">注册 Smartisan ID</div>
+				<!-- 表单 -->
+				<form action="" method="">
+					<ul>
+						<!-- 国家和地区 -->
+						<li>
+							<div class="word">
+								<div style="display: flex;">
+									<span id="sp1"><i class="fa fa-globe" aria-hidden="true"></i></span>
+									<span id="sp2">国家和地区</span>
+								</div>
+								<div>
+									<span id="spz">中国 +86 </span>
+									<span><i class="fa fa-caret-down"></i></span>
+								</div>
+							</div>
+						</li>
+						<!-- 手机号 -->
+						<li>
+							<div class="photo">
+								<span id="sp1"><i class="fa fa-tablet"></i></span>
+								<input type="text" name="" id="in1" value="" placeholder="手机号" />
+								<div id="numbe1" class="numbe">请正确输入手机号</div>
+							</div>
+						</li>
+						<!-- 手机验证码 -->
+						<li>
+							<div style="width: 370px;display: flex;margin: auto;">
+								<div class="code">
+									<span id="sp1"><i class="fa fa-first-order"></i></span>
+									<input type="text" name="" id="in2" value="" placeholder="短信验证码" />
+								</div>
+								<div class="but">
+									<button type="button" id="yzm">获取验证码</button>
+								</div>
+							</div>
+						</li>
+						<!-- 密码 -->
+						<li>
+							<div class="pass">
+								<span id="sp1"><i class="fa fa-key"></i></span>
+								<input type="password" name="" id="in3" value="" placeholder="密码" />
+								<div id="numbe2"class="passw">密码长度 6~16 位，数字、字母和符号至少包含两种</div>
+							</div>
+						</li>
+						<!-- 确认密码 -->
+						<li>
+							<div class="pass">
+								<span id="sp1"><i class="fa fa-unlock-alt"></i></span>
+								<input type="password" name="" id="in4" value="" placeholder="重复密码" />
+								<div id="numbe3"class="passw">两次密码输入不一致</div>
+							</div>
+						</li>
+					</ul>
+				</form>
+				<div class="register">
+					<div style="display: flex;">
+						<span id="spb"></span>
+						<span>我已阅读并同意遵守<a href="">用户协议</a>和<a href="">隐私政策</a></span>
+					</div>
+					<div class="register_but">
+						<a href="Sigin.html"><button type="button" id="dl">立即注册</button></a>
+						<p>
+							<hr color="#DCDCDC">
+						</p>
+						<span>如果您已拥有 Smartisan ID，则可在此</span><a href="Sigin.html">登录</a>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<span class="sp1">Copyright © 2020 smartisan.com 版权所有</span>
+				<span class="sp2">京 ICP 备 18020659 号 - 2</span>
+			</div>
+			<div id="xlgz">
+				<ul id="ul1">
+					
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

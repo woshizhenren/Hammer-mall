@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/注册页背景2.png);
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input::-webkit-input-placeholder{
+	font-size: 14px;
+	opacity: .5;
+}
+.box{
+	height: 600px;
+	width: 460px;
+	border: 1px solid gainsboro;
+	margin: 100px auto;
+	border-radius: 15px;
+	background: white;
+	box-shadow: 0 5px 10px gray;
+}
+.head{
+	height: 62px;
+	width: 460px;
+	text-align: center;
+	line-height: 62px;
+	font-size: 20px;
+	font-weight: 700;
+	border: 0px solid rgb(220,220,220);
+	border-bottom: 1px solid rgb(220,220,220);
+	border-radius:15px 15px 0 0;
+	color: #666;
+	background: rgb(250,250,250);
+}
+
+
+
+.box .word{
+	height: 48px;
+	width: 370px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	margin: 20px auto;
+	display: flex;
+	line-height: 48px;
+	color: rgb(150,150,150);
+	justify-content: space-between;
+}
+.box .word #sp1{
+	display: block;
+	height: 48px;
+	width: 48px;
+	border-right: 1px solid gainsboro;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	background: rgb(250,250,250);
+	cursor: pointer;
+}
+.box .word i{
+	opacity: 0.4;
+}
+.box .word #sp2{
+	margin-left: 10px;
+}
+.box .word #spz{
+	cursor: pointer;
+}
+
+
+.box .photo{
+	height: 48px;
+	width: 370px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	margin: 20px auto;
+	display: flex;
+	line-height: 48px;
+	color: rgb(150,150,150);
+	position: relative;
+}
+.box .photo #sp1{
+	display: block;
+	height: 48px;
+	width: 48px;
+	border-right: 1px solid gainsboro;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	background: rgb(250,250,250);
+	cursor: pointer;
+}
+.box .photo i{
+	opacity: 0.4;
+}
+.box .photo #sp2{
+	margin-left: 10px;
+	font-size: 18px;
+}
+.box .photo input{
+	width: 250px;
+	outline-style: none;
+	margin-left: 10px;
+	border: 0;
+	font-size: 18px;
+}
+.box .code{
+	height: 48px;
+	width: 260px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	margin: auto;
+	display: flex;
+	line-height: 48px;
+	color: rgb(150,150,150);
+	margin-right: 10px;
+}
+.box .code #sp1{
+	display: block;
+	height: 48px;
+	width: 48px;
+	border-right: 1px solid gainsboro;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	background: rgb(250,250,250);
+	cursor: pointer;
+}
+.box .code i{
+	opacity: 0.4;
+}
+.box .code input{
+	width: 200px;
+	outline-style: none;
+	margin-left: 10px;
+	border: 0;
+	font-size: 18px;
+}
+.box .but{
+	height: 48px;
+	line-height: 48px;
+}
+.box .but button{
+	outline-style: none;
+	height: 48px;
+	width: 100px;
+	background: rgb(250,250,250);
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	color: rgb(150,150,150) ;
+}
+
+
+.box .pass{
+	height: 48px;
+	width: 370px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	margin: 20px auto;
+	display: flex;
+	line-height: 48px;
+	color: rgb(150,150,150);
+	position: relative;
+}
+.box .pass #sp1{
+	display: block;
+	height: 48px;
+	width: 48px;
+	border-right: 1px solid gainsboro;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	background: rgb(250,250,250);
+	cursor: pointer;
+}
+.box .pass i{
+	opacity: 0.4;
+}
+.box .pass #sp2{
+	margin-left: 10px;
+	font-size: 18px;
+}
+.box .pass input{
+	width: 300px;
+	outline-style: none;
+	margin-left: 10px;
+	border: 0;
+	font-size: 18px;
+}
+.register{
+	width: 370px;
+	height: 150px;
+	margin: auto;
+	font-size: 7px;
+	display: flex;
+	flex-direction: column;
+}
+.register #spb{
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: url(../img/checkbox_f49f6e4acf_2x.png) no-repeat;
+	background-position: bottom;
+	cursor: pointer;
+}
+
+.register button{
+	margin-top: 20px;
+	height: 48px;
+	width: 370px;
+	background: #5079D9;
+	opacity: 0.5;
+	border: 0;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 20px;
+	outline: none
+}
+.register p{
+	padding-top: 20px;
+}
+.register span{
+	color: rgb(150,150,150);
+}
+.register .register_but span{
+	margin-left: 60px;
+	color: rgb(150,150,150);
+}
+.register a{
+	color: #5079D9;
+}
+.foot{
+	margin-top: 150px;
+	height: 35px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.foot .sp1{
+	font-size: 12px;
+	line-height: 20px;
+	opacity: 0.6;
+}
+.foot .sp2{
+	margin-top: 5px;
+	font-size: 10px;
+	line-height: 20px;
+	color: #5079D9;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.word:hover{
+	box-shadow: 0 0 7px gainsboro;
+}
+.photo:hover{
+	box-shadow: 0 0 7px gainsboro;
+}
+.code:hover{
+	box-shadow: 0 0 7px gainsboro;
+}
+.pass:hover{
+	box-shadow: 0 0 7px gainsboro;
+}
+
+.numbe{
+	font-size: 12px;
+	position: absolute;
+	right: 5px;
+	color: brown;
+	display: none;
+}
+.passw{
+	margin-top: 33px;
+	font-size: 12px;
+	position: absolute;
+	color: #A52A2A;
+	margin-left: 50px;
+	display: none;
+}
+
+
+#xlgz{
+	height: 270px;
+	width: 240px;
+	overflow-y: auto;
+	position: absolute;
+	top:235px;
+	right: 575px;
+	display: none;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	/* background: #32CD32; */
+}
+#xlgz ul li{
+	font-size: 14px;
+	padding-left: 20px;
+	line-height: 50px;
+	border-bottom: 1px solid rgb(200,200,200);
+	background: white;
+	color: rgb(180,180,180);
+	cursor: pointer;
+}
+#xlgz ul li:hover{
+	color: rgb(100,100,100);
+	font-weight: 600;
+	background: rgb(250,250,250);
+}

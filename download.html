@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Smartisan应用下载 - 锤子商城</title>
+		<link rel="stylesheet" type="text/css" href="css/download.css" />
+		<script src="./resource/date.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/index1.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css" />
+		<script type="text/javascript">
+			$(function(){
+				$("li").hover(function(){
+					$(this).find('.first').css({opacity:'0'})
+					$(this).find('.second').css({opacity:'1'})
+				},function(){
+					$(this).find('.first').css({opacity:'1'})
+					$(this).find('.second').css({opacity:'0'})
+				})
+				// $('#tab_ul').on('click','li',function(){
+				// 	$("#tab_ul").find('li').css({color:'rgb(0,0,0,.6)',fontWeight:'500'})
+				// 	$(this).css({color:'black',fontWeight:'600'})
+				// 	var num = $(this).index()
+				// 	switch(num){
+				// 		case 0:
+				// 			$(".main").css({display:"block"});
+				// 			$('.main_tow').css({display:'none'});
+				// 			break;
+				// 		case 1:
+				// 			$('.main_tow').css({display:'block'});
+				// 			$(".main").css({display:"none"});
+				// 			break;
+				// 	}
+				// })
+			})
+		</script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head_logo">
+				<a href="index.html"><img src="img/logo.png"></a>
+			</div>
+			<div class="head_ave">
+				<ul>
+					<li class='head_ave_li1'><a href="index.html">在线商城</a></li>
+					<li><a href="#">坚果 R2</a></li>
+					<li><a href="Smartisan.html">Smartisan TNT go</a></li>
+					<li><a href="#">坚果 TNT 工作站</a></li>
+					<li><a href="#">Smartisan OS</a></li>
+					<li><a href="#">欢喜云</a></li>
+					<li><a href="download.html">应用</a></li>
+					<li><a href="#">论坛</a></li>
+					<li><a href="#">开发者支持</a></li>
+					<li><a href="honor.html">荣誉与奖项</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li class='head_ave_li12'><a href="#">下载 APP</a></li>
+				</ul>
+			</div>
+			<div class="head_rgt">
+				<!-- 个人中心 -->
+				<a href="percen.html">
+					<div class="head_perCen"></div>
+				</a>
+				<!-- 购物车 -->
+				<a href="shopcare.html">
+					<div class="head_spCart"></div>
+				</a>
+			</div>
+			<div class="head_percent">
+				<div class="shang">
+					<img src="img/avatar1.jpg">
+					<p>呢喃</p>
+				</div>
+				<ul>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-reorder"></i></div>
+							<div class="xx">我的订单</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-user"></i></div>
+							<div class="xx">售后服务</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-money"></i></div>
+							<div class="xx">我的优惠</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-file-text"></i></div>
+							<div class="xx">账户资料</div>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<div class="tb"><i class="fa fa-truck"></i></div>
+							<div class="xx">收货地址</div>
+						</li>
+					</a>
+					<a href="">
+						<li style="border-radius: 0 0 10px 10px;">
+							<div class="tb"><i class="fa fa-window-close-o"></i></div>
+							<div class="xx">退出登录</div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<div class="tab">
+			<div class="tab_fk">
+				<ul id="tab_ul">
+					<li class="tab_fk_li">全部应用</li>
+					<li>锤子商城</li>
+					<li>锤子科技论坛</li>
+					<li>锤子阅读</li>
+					<li>锤子便签</li>
+					<li>HandShaker</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="top">
+				<img src="img/app.png">
+			</div>
+			<div class="bot">
+				<ul id="main_ul">
+					<li>
+						<div class="first">
+							<img src="img/app3.png">
+							<span class="first_sp1">锤子商城</span>
+							<span class="first_sp2">和世间好物交朋友</span>
+							<div class="bot">
+								<img src="img/Android.png" >
+								<img src="img/ios.png" >
+							</div>
+						</div>
+						<div class="second">
+							<img src="img/app2.png" >
+							<span class="second_sp1">扫二维码下载锤子商城</span>
+							<span class="second_sp2">进一步了解锤子商城></span>
+						</div>
+					</li>
+					<li>
+						<div class="first">
+							<img src="img/app4.png">
+							<span class="first_sp1">锤子科技论坛</span>
+							<span class="first_sp2">是一个科技论坛 不只是科技论坛</span>
+							<div class="bot">
+								<img src="img/Android.png" >
+								<img src="img/ios.png" >
+							</div>
+						</div>
+						<div class="second">
+							<img src="img/app2.png" >
+							<span class="second_sp1">扫二维码下载锤子科技论坛</span>
+							<span class="second_sp2">进一步了解锤子科技论坛></span>
+						</div>
+					</li>
+					<li>
+						<div class="first">
+							<img src="img/app5.jpg">
+							<span class="first_sp1">锤子阅读</span>
+							<span class="first_sp2">信息过载年代的干净阅读</span>
+							<div class="bot">
+								<img src="img/Android.png" >
+								<img src="img/ios.png" >
+							</div>
+						</div>
+						<div class="second">
+							<img src="img/app2.png" >
+							<span class="second_sp1">扫二维码下载锤子阅读</span>
+							<span class="second_sp2">进一步了解锤子阅读></span>
+						</div>
+					</li>
+					<li>
+						<div class="first">
+							<img src="img/app6.png">
+							<span class="first_sp1">锤子便签</span>
+							<span class="first_sp2">雅致的信纸、精心调整的文字排版</span>
+							<div class="bot">
+								<img src="img/Android.png" >
+								<img src="img/ios.png" >
+							</div>
+						</div>
+						<div class="second">
+							<img src="img/app2.png" >
+							<span class="second_sp1">扫二维码下载锤子便签</span>
+							<span class="second_sp2">进一步了解锤子便签></span>
+						</div>
+					</li>
+					<li>
+						<div class="first">
+							<img src="img/app7.jpg">
+							<span class="first_sp1">HandShaker</span>
+							<span class="first_sp2">在window和Mac也可以管理手机内容</span>
+							<div class="bot">
+								<img src="img/Android.png" >
+								<img src="img/ios.png" >
+							</div>
+						</div>
+						<div class="second">
+							<img src="img/app2.png" >
+							<span class="second_sp1">扫二维码下载HandShaker</span>
+							<span class="second_sp2">进一步了解HandShaker></span>
+						</div>
+					</li>
+					<li class="expect">
+						<img src="img/except.png" >
+						<div class="expect_fk">
+							<span class="expect_sp1">敬请期待</span>
+							<span class="expect_sp2">更多锤子商城出品应用即将发布..</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main_tow">
+			<div class="main_tow_top">
+				<img src="img/app3.png" >
+				<span class="main_tow_sp1">锤子商城 APP</span>
+				<span class="main_tow_sp2">扫码下载 APP 领新人专享大礼包，首单优惠购最低只要 9.9 元</span>
+				<div class="but">
+					<button type="button">小程序版</button>
+					<button type="button">Android</button>
+					<button type="button">iPhone版</button>
+				</div>
+			</div>
+			<div class="main_tow_ctr">
+				<img src="img/spmall.png" >
+			</div>
+			<div class="main_tow_bot">
+				<div class="main_tow_bot_fk">
+					<div class="lef">
+						<ul>
+							<li>
+								<span>Android v1.3.4 新版特性</span>
+								<span>更新时间 2020-11-08</span>
+							</li>
+							<li>新机发售，遇上双十一</li>
+							<li>商城好礼送不停，100元大额券，限时领取！</li>
+							<li>清仓好物1折起，限量抢购！</li>
+							<li>特价专区，限时开放！</li>
+							<li>今年双11，锁定锤子商城！</li>
+							<li>修复异常弹窗弹出问题，提升用户体验</li>
+						</ul>
+					</div>
+					<div class="rgt">
+						<ul>
+							<li>
+								<span>iOS v1.3.3 新版特性</span>
+								<span>更新时间 2020-11-08</span>
+							</li>
+							<li>新机发售，遇上双十一</li>
+							<li>商城好礼送不停，100元大额券，限时领取！</li>
+							<li>清仓好物1折起，限量抢购！</li>
+							<li>特价专区，限时开放！</li>
+							<li>今年双11，锁定锤子商城！</li>
+							<li>修复异常弹窗弹出问题，提升用户体验</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main_forum">
+			
+		</div>
+		
+		<div class="foot">
+			<div class="foot_main">
+				<div class="foot_main_top">
+					<div class="lef1">
+						<ul>
+							<li class="li1" style="padding-top: 4px;">订单服务</li>
+							<li class="foot_li2">购买指南</li>
+							<li class="foot_li2">送货政策</li>
+							<li class="foot_li2"> </li><br>
+						</ul>
+					</div>
+					<div class="lef2">
+						<ul>
+							<li class="li1">服务支持</li>
+							<li class="foot_li2">零售门店</li>
+							<li class="foot_li2">自助服务</li>
+							<li class="foot_li2">维修门店</li>
+						</ul>
+					</div>
+					<div class="lef3">
+						<ul>
+							<li class="li1">媒体中心</li>
+							<li class="foot_li2">新闻百态</li>
+							<li class="foot_li2">官方视频</li>
+							<li class="foot_li2">图片资源</li>
+						</ul>
+					</div>
+					<div class="lef4">
+						<ul>
+							<li class="li1">关注我们</li>
+							<li class="foot_li2">新浪微博</li>
+							<li class="foot_li2">官方微信</li>
+							<li class="foot_li2">荣誉奖项</li>
+						</ul>
+					</div>
+					<div class="foot_rgt">
+						<span class="rgt_sp1">400 - 603 - 5000</span>
+						<span class="rgt_sp2">周一到周日 9:00 - 18:00</span>
+						<span class="rgt_sp2">(仅收市话费)</span>
+						<button type="button"><a href="">在线帮助</a></button>
+					</div>
+				</div>
+				<div class="foot_main_but">
+					<span>Copyright © 2020 smartisan.com 版权所有</span>
+					<span>|</span>
+					<a href="">锤子商城隐私政策</a>
+					<span>|</span>
+					<a href="">锤子商城用户协议</a>
+					<span>|</span>
+					<a href="">资质证照</a><br>
+					<a href="">京 ICP 备 19048576 号 - 1</a>
+					<span>|<img src="img/footer.png"></span>
+					<a href="">京公网安备 11010502039854号</a>
+					<span>|</span>
+					<a href="">京食药网食备 202010031</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
